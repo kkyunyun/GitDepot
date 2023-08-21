@@ -1,6 +1,5 @@
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558 
-    // for the documentation about the tasks.json format
+   
     "version": "2.0.0",
     "tasks": [
         {
@@ -11,7 +10,7 @@
             "-g",
             "${file}",
             "-o",
-            "D:/My/vsCode/exe/${fileBasenameNoExtension}.exe",
+            "D:/My/project/CodeProject/exe/${fileBasenameNoExtension}.exe",
             "-I",
             "D:\\My\\project\\CodeProject",      /*修改成自己放c/c++项目的文件夹，这里的路径和电脑里复制的文件目录有一点不一样，这里是两个反斜杠\\*/
             "-std=c++17"
