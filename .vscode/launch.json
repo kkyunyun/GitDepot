@@ -7,7 +7,7 @@
             "name": "g++.exe build and debug active file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "D:\\My\\project\\CodeProject\\exe\\${fileBasenameNoExtension}.exe",
+            "program": "D:\\My\\project\\CodeProject\\z.exe\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
